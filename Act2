@@ -1,0 +1,253 @@
+// Myxen Montes
+// Activity 2
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int mm, dd, yyyy;
+    
+    cout << "Enter Month (mm): \t";
+    cin >> mm;
+    
+    switch (mm)
+    {
+        case 1:
+            cout <<"January" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 2:
+            cout << "February" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 29)
+                cout << "Please input a valid date" << endl;
+    
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+        
+            break;
+        
+        case 3:
+            cout << "March" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd > 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 4:
+            cout << "April" << endl;
+        { cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd > 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 30)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+            
+        }
+            break;
+        
+        case 5:
+            cout << "May" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+            
+        }
+            break;
+        
+        case 6:
+            cout << "June" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 30)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 7:
+            cout << "July" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 8:
+            cout << "August" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 30)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+            
+        }
+            break;
+        
+        case 9:
+            cout << "September" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 10:
+            cout << "October" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 30)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+            
+        case 11:
+            cout << "November" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 30)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+        
+        case 12:
+            cout << "December" << endl;
+        {
+            cout <<"Enter Date (dd): \t";
+            cin >> dd;
+            cout << "Enter Year (yyyy): \t";
+            cin >> yyyy;
+            
+            if (dd < 1)
+                cout << "Please input a valid date" << endl;
+            
+            else if (dd > 31)
+                cout << "Please input a valid date" << endl;
+            
+            else
+                cout << "Birthdate is " << mm << "-" << dd << "-" << yyyy << endl;
+        }
+            break;
+
+    }
+    
+    _getch();
+    return 0;
+
+}
